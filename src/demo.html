@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parabola js demo</title>
+</head>
+<style>
+  .wrap {
+    overflow: hidden;
+  }
+  .box-1 {
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid;
+  }
+  .r-item {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #00c4b6;
+  }
+  .r-target {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #8e908c;
+    visibility: hidden;
+  }
+</style>
+<body>
+<section class="wrap">
+  <p>抛物线测试</p>
+  <hr>
+  <div class="box-1">
+    <div class="r-item"></div>
+    <div class="r-target"></div>
+  </div>
+</section>
+</body>
+<script src="./parabola.js"></script>
+<script>
+  const box1 = document.querySelector('.box-1');
+  const rItem = document.querySelector('.r-item');
+  const rTarget = document.querySelector('.r-target');
+
+  // ie8+
+  box1.addEventListener('click', e => {
+    const diffX = e.offsetX + box1.scrollLeft;
+    const diffY = e.offsetY + box1.scrollTop;
+    rTarget.style.left = diffX + 'px';
+    rTarget.style.top = diffY + 'px';
+    const parabola = new Parabola(rItem, rTarget, {
+      endScale: '0.3',
+    }).init();
+  })
+</script>
+</html>

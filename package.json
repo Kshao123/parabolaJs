@@ -1,0 +1,18 @@
+{
+  "name": "parabola",
+  "version": "1.0.0",
+  "description": "抛物线运动函数，可实现购物车等逻辑",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "html",
+    "抛物线",
+    "购物车",
+    "运动函数"
+  ],
+  "author": "",
+  "license": "MIT"
+}
