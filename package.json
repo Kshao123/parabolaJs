@@ -2,11 +2,15 @@
   "name": "parabola-js",
   "version": "1.0.0",
   "description": "抛物线运动函数，可实现购物车等逻辑",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "typings": "./lib/index.d.ts",
+  "main": "./lib/parabola.js",
+  "types": "./lib/parabola.d.ts",
+  "typings": "./lib/parabola.d.ts",
+  "bugs": "https://github.com/Kshao123/parabolaJs/issues",
+  "homepage": "https://github.com/Kshao123/parabolaJs",
+  "repository": "Kshao123/parabolaJs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "gulp"
   },
   "keywords": [
     "JavaScript",
@@ -19,6 +23,10 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^25.1.0",
-    "jsdom": "^16.2.1"
+    "jsdom": "^16.2.1",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-babel": "^8.0.0",
+    "del": "^5.1.0"
   }
 }

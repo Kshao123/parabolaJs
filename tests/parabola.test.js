@@ -5,6 +5,7 @@ afterEach(() => {
 });
 
 beforeEach(() => {
+  // 改写 requestAnimationFrame
   jest.spyOn(window, 'requestAnimationFrame').mockImplementation(cb => cb());
 
   document.body.innerHTML =
@@ -21,6 +22,6 @@ beforeEach(() => {
 test('move node', () => {
   const element = document.getElementById('node1');
   const targetElement = document.getElementById('node2');
-  expect(new Parabola(element, targetElement).init())
+  expect(new Parabola(element, targetElement).init());
   expect(element.style['webkit-transform']).toBe('translate(100px,100px)scale(1)')
 })
