@@ -4,7 +4,7 @@
 
 
 
-![build](https://github.com/Kshao123/parabolaJs/workflows/build/badge.svg?event=push) [![CircleCI branch](https://circleci.com/gh/Kshao123/parabolaJs.svg)](https://circleci.com/gh/Kshao123/parabolaJs)
+![test](https://github.com/Kshao123/parabolaJs/workflows/test/badge.svg?event=push) [![CircleCI branch](https://circleci.com/gh/Kshao123/parabolaJs.svg)](https://circleci.com/gh/Kshao123/parabolaJs)
 <br />
 coverage
  [![Codecov](https://img.shields.io/codecov/c/github/ant-design/ant-design/master.svg?style=flat-square)](https://codecov.io/gh/ant-design/ant-design/branch/master) 
