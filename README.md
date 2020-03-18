@@ -1,6 +1,9 @@
 <h1 align="center">Parabola js</h1>
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/ant-design/ant-design/master.svg?style=flat-square)](https://github.com/Kshao123/parabolaJs/actions?query=workflow%3A%22Node.js+Package%22)
+![build](https://github.com/Kshao123/parabolaJs/workflows/build/badge.svg?event=push)
+[![CircleCI branch](https://circleci.com/gh/Kshao123/parabolaJs.svg?style=svg)](https://circleci.com/gh/Kshao123/parabolaJs)
+
+
 [![CircleCI branch](https://img.shields.io/circleci/project/github/ant-design/ant-design/master.svg?style=flat-square)](https://circleci.com/gh/Kshao123/parabolaJs)
 
 123
