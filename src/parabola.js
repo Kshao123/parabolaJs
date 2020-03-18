@@ -133,7 +133,6 @@ var Parabola = function (element, target, options) {
       */
       // 于是
       b = (coordTarget.y - a * coordTarget.x * coordTarget.x) / coordTarget.x;
-
       return this;
     };
 
@@ -191,6 +190,7 @@ var Parabola = function (element, target, options) {
           flagMove = true;
         }
       };
+
       window.requestAnimationFrame(step);
       flagMove = false;
 
@@ -204,3 +204,5 @@ var Parabola = function (element, target, options) {
     };
   }
 }
+
+module.exports = Parabola

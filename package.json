@@ -1,10 +1,12 @@
 {
-  "name": "parabola",
+  "name": "parabola-js",
   "version": "1.0.0",
   "description": "抛物线运动函数，可实现购物车等逻辑",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "JavaScript",
@@ -14,5 +16,9 @@
     "运动函数"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "jsdom": "^16.2.1"
+  }
 }
