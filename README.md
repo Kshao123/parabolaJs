@@ -4,20 +4,7 @@
 
 
 
-![test](https://github.com/Kshao123/parabolaJs/workflows/test/badge.svg?event=push) [![CircleCI branch](https://circleci.com/gh/Kshao123/parabolaJs.svg)](https://circleci.com/gh/Kshao123/parabolaJs)
-<br />
-coverage
- [![Codecov](https://img.shields.io/codecov/c/github/ant-design/ant-design/master.svg?style=flat-square)](https://codecov.io/gh/ant-design/ant-design/branch/master) 
- npm
- [![](https://flat.badgen.net/npm/v/antd?icon=npm)](https://www.npmjs.com/package/antd) 
- downloads
- [![NPM downloads](http://img.shields.io/npm/dm/antd.svg?style=flat-square)](http://npmjs.com/antd)
-Dependencies
-[![Dependencies](https://img.shields.io/david/ant-design/ant-design.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design)
-DevDependencies 
-[![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design?type=dev) 
-[![Total alerts](https://flat.badgen.net/lgtm/alerts/g/ant-design/ant-design)](https://lgtm.com/projects/g/ant-design/ant-design/alerts/)
- [![Issues need help](https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open)](https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) 
+![test](https://github.com/Kshao123/parabolaJs/workflows/test/badge.svg?event=push) [![CircleCI branch](https://circleci.com/gh/Kshao123/parabolaJs.svg)](https://circleci.com/gh/Kshao123/parabolaJs) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Kshao123/parabolaJs.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Kshao123/parabolaJs/alerts/) [![codecov](https://codecov.io/gh/Kshao123/parabolaJs/branch/master/graph/badge.svg)](https://codecov.io/gh/Kshao123/parabolaJs) [![Dependencies](https://img.shields.io/david/Kshao123/parabolaJs.svg?style=flat-square)](https://david-dm.org/Kshao123/parabolaJs) [![DevDependencies](https://img.shields.io/david/dev/Kshao123/parabolaJs.svg?style=flat-square)](https://david-dm.org/Kshao123/parabolaJs?type=dev) [![Issues need help](https://flat.badgen.net/github/label-issues/Kshao123/parabolaJs/help%20wanted/open)](https://github.com/Kshao123/parabolaJs/issues?q=is%3Aissue+is%3Aopen) 
 
 
 

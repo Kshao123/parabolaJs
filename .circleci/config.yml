@@ -12,7 +12,8 @@ jobs:
             - run: npm install
             - run: npm run test
             - run: npm run build
-            - run: bash <(curl -s https://codecov.io/bash)
+            - run: codecov -f
+#            - run: bash <(curl -s https://codecov.io/bash)
 
 
 workflows:

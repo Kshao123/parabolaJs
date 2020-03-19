@@ -55,7 +55,7 @@
     const diffY = e.offsetY + box1.scrollTop;
     rTarget.style.left = diffX + 'px';
     rTarget.style.top = diffY + 'px';
-    const parabola = new Parabola(rItem, rTarget, {
+    new Parabola(rItem, rTarget, {
       endScale: '0.3',
     }).init();
   })

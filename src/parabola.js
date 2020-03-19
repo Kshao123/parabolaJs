@@ -69,7 +69,8 @@ var Parabola = function (element, target, options) {
   // 根据两点坐标以及曲率确定运动曲线函数（也就是确定a, b的值）
   /* 公式： y = a*x*x + b*x + c;
   */
-  var a = params.curvature, b = 0, c = 0;
+  var a = params.curvature, b = 0;
+    // c = 0;
 
   // 是否执行运动的标志量
   var flagMove = true;
