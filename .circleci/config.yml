@@ -12,7 +12,7 @@ jobs:
             - run: npm install
             - run: npm run test
             - run: npm run build
-            - run: codecov -f
+            - run: npm codecov
 #            - run: bash <(curl -s https://codecov.io/bash)
 
 
