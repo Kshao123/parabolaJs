@@ -99,5 +99,5 @@ export default ParabolaDemo;
 
 ## 🔗 Links
 
-- [抛物线 demo](http://ksh7.com/)
+- [抛物线 demo](http://ksh7.com/2020/03/19/demo-parabola-js/)
 - [blog](https://ksh7.com/)
