@@ -1,6 +1,6 @@
 {
   "name": "parabola-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "抛物线运动函数，可实现购物车等逻辑",
   "main": "./lib/parabola.js",
   "types": "./lib/parabola.d.ts",
